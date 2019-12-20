@@ -1,0 +1,11 @@
+<h2 class="text-center">Login testing</h2>
+<div class="form-group row justify-content-center">
+  <div class="col-sm-2">
+    <input #username type="text" class="form-control" placeholder="Username" autocomplete="off">
+    <br>
+    <input #password type="text" class="form-control" placeholder="Password" autocomplete="off">
+  </div>
+</div>
+<div class="row justify-content-center">
+  <button class="btn btn-success" (click)="reqLogin(username.value,password.value)">Submit</button>
+</div>
